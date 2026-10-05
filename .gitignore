@@ -1,0 +1,23 @@
+# PlatformIO dependencies and compiled firmware
+.pio/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Training outputs; the embedded model in include/ is tracked
+models/
+
+# Local editor and machine settings
+.vscode/
+.idea/
+.DS_Store
+
+# Local agent metadata and credentials
+.agents/
+.codex/
+.aws/
+.env
+.env.*
